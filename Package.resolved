@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/tzef/ModularExample-DesignSystem.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "bb818697c7b4504a6558b942314564a254300b58"
+        "revision" : "a1a774d9f72f81ac56b3f10d75f0d643974d76f8",
+        "version" : "1.0.0"
       }
     }
   ],
