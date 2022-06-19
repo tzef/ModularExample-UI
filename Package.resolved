@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "modularexample-designsystem",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tzef/ModularExample-DesignSystem.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "bb818697c7b4504a6558b942314564a254300b58"
+      }
+    }
+  ],
+  "version" : 2
+}
