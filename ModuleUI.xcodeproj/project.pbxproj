@@ -15,6 +15,7 @@
 		C9A785D9283A780C00D9177B /* RefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A785D8283A780C00D9177B /* RefreshController.swift */; };
 		C9A78663283D127400D9177B /* RefreshControllerStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A78662283D127400D9177B /* RefreshControllerStatus.swift */; };
 		C9A7878A2854E11C00D9177B /* DesignSystemFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A787892854E11C00D9177B /* DesignSystemFactory.swift */; };
+		C9A787D2285ED4F500D9177B /* ModuleDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = C9A787D1285ED4F500D9177B /* ModuleDesignSystem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A787D2285ED4F500D9177B /* ModuleDesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +151,7 @@
 			);
 			name = ModuleUI;
 			packageProductDependencies = (
+				C9A787D1285ED4F500D9177B /* ModuleDesignSystem */,
 			);
 			productName = ModuleUI;
 			productReference = C9A785AF283A73E200D9177B /* ModuleUI.framework */;
@@ -178,6 +181,7 @@
 			);
 			mainGroup = C9A785A5283A73E200D9177B;
 			packageReferences = (
+				C9A787D0285ED4F500D9177B /* XCRemoteSwiftPackageReference "ModularExample-DesignSystem" */,
 			);
 			productRefGroup = C9A785B0283A73E200D9177B /* Products */;
 			projectDirPath = "";
@@ -414,6 +418,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9A787D0285ED4F500D9177B /* XCRemoteSwiftPackageReference "ModularExample-DesignSystem" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tzef/ModularExample-DesignSystem.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9A787D1285ED4F500D9177B /* ModuleDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9A787D0285ED4F500D9177B /* XCRemoteSwiftPackageReference "ModularExample-DesignSystem" */;
+			productName = ModuleDesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9A785A6283A73E200D9177B /* Project object */;
 }
